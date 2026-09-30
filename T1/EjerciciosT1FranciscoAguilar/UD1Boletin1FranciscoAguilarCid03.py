@@ -1,4 +1,4 @@
-precio = 100
+precio = float (input('Introduzca el precio: '))
 
 iva = 21
 
