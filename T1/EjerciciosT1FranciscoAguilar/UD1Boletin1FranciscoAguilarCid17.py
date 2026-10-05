@@ -74,7 +74,7 @@ while jugar == 'S':
 
     print(f'La puntuación actual es: Tu -> {score}  PC -> {pcScore}')
 
-    jugar = input('Presiona S para seguir jugando y N para dejar de jugar :')
+    jugar = input('Presiona S para seguir jugando y N para dejar de jugar: ')
 
 
 
