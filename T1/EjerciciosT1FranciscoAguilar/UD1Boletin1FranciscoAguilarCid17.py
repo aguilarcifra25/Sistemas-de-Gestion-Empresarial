@@ -1,4 +1,4 @@
-import random
+import numpy
 
 jugar = 'S'
 score = 0
@@ -8,7 +8,7 @@ print('Juguemos piedra papel tijeras')
 
 while jugar == 'S':
 
-    pcOpt = random.randint(1,3)
+    pcOpt = numpy.random.randint(3)
     opt = int(input('Elige 1 para piedra, 2 para papel y 3 para tijeras: '))
 
     match opt:

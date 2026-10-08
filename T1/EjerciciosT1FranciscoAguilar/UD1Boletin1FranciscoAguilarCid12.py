@@ -1,6 +1,6 @@
-import random
+import numpy as np
 
-num = random.randint(0,10)
+num = np.random.randint(10)
 guess = 0
 
 for i in range (0,3):
