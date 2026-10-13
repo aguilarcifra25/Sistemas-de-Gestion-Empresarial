@@ -1,6 +1,6 @@
-import random
+import numpy as np
 
-num = random.randint(0, 25)
+num = np.random.randint(25)
 
 if num >= 0 and num <= 10:
 

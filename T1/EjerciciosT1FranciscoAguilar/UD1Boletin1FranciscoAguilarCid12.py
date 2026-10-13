@@ -19,6 +19,6 @@ for i in range (0,3):
 
         print('¡Has acertado!')
 
-        i = 3
+        break
 
 print(f'\nEl número era el {num}')
