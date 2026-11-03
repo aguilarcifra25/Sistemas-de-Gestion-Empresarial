@@ -1,12 +1,12 @@
 numPalabras = 0
 palabras = []
 
-palabraSustituta = ''
 palabraSustituida = ''
+palabraSustituta = ''
 
-print('Bienvenido al programa de contar palabras\n')
+print('Bienvenido al programa de sustituir palabras\n')
 
-numPalabras = int(input('Indique el número de palabras quequiere escribir: '))
+numPalabras = int(input('Indique el número de palabras que quiere escribir: '))
 
 print()
 
@@ -15,14 +15,16 @@ for i in range(numPalabras):
     palabras.append(input('Escriba una palabra: '))
 
 print()
+palabraSustituida = input('Indique la palabra a sustituir: ')
 palabraSustituta = input('Indique la palabra sustituta: ')
-palabraSustituida = input('Indique la palabra sustituida: ')
 
 for i in range(numPalabras):
 
-    if palabraSustituida == palabras[i]:
+    if palabras[i] == palabraSustituida:
 
         palabras[i] = palabraSustituta
 
 print()
 print(palabras)
+
+print('\n--- Gracias por usar este programa ---')
