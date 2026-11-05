@@ -11,16 +11,14 @@ cadenaMin = cadena.lower()
 
 for i in range(len(cadenaMin)):
 
-    caracter = cadenaMin[i]
-
-    if caracter in letrasVistas:
+    if cadenaMin[i] in letrasVistas:
 
         esIsograma = False
         break
         
     else:
 
-        letrasVistas.append(caracter)
+        letrasVistas.append(cadenaMin[i])
 
 print()
 
