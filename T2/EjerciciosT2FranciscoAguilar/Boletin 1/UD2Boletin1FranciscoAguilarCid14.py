@@ -15,11 +15,11 @@ print()
 
 if palabra == palabraInvertida:
 
-    print(f'La palabra "{palabra}" SÍ es un palíndromo.')
+    print(f'La palabra "{palabra}" es un palíndromo.')
 
 else:
 
-    print(f'La palabra "{palabra}" NO es un palíndromo.')
+    print(f'La palabra "{palabra}" es un palíndromo.')
 
 
 print('\n--- Gracias por usar este programa ---')
