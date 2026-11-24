@@ -1,0 +1,4 @@
+Archivo de entrada
+debajo tengo una linea vacia
+
+encima tengo una linea vacia

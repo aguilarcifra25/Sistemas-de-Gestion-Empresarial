@@ -1,2 +1,8 @@
-Esto es un fichero
-Segunda linea
+TFN
+TFS
+LPA
+GMZ
+VDE
+SPC
+ACE
+FUE
